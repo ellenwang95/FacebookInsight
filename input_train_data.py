@@ -1,6 +1,6 @@
 from textblob import TextBlob
 
-classification_types = ['entertainment', 'food', 'art', 'funny/cute', 'psychology', 'news', 'misc', 'friend_post', 'group_post']
+classification_types = ['entertainment', 'food', 'art', 'funny/cute', 'psychology', 'news', 'education', 'marketing', 'misc', 'friend_post', 'group_post']
 media_types = ['vid', 'img', 'txt', 'link']
 
 def validate_media_type(media_type_input):
